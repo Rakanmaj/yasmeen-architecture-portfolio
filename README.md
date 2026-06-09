@@ -4,9 +4,7 @@ High-end static architectural portfolio website built from the uploaded PPTX con
 
 ## How to run
 
-Open `index.html` directly in a browser. No backend is required.
-
-You can also run it through Vite if you prefer:
+Run the React + Vite frontend locally:
 
 ```bash
 npm install
@@ -18,13 +16,13 @@ npm run dev
 ```text
 index.html
 style.css
-script.js
-assets/images/
+src/
+public/assets/images/
 README.md
 ```
 
 ## Image placement
 
-All portfolio images are referenced from `assets/images/`. Uploaded project images keep their exact file names, including spaces.
+All portfolio images are referenced from `/assets/images/`. Uploaded project images keep their exact file names, including spaces.
 
 The Revit Course and VR Research Lab sections also use media extracted from the supplied PowerPoint deck and stored as `pptx-project-media-*.png`.

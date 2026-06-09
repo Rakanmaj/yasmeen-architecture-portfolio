@@ -1,4 +1,4 @@
-const imagePath = (name) => `assets/images/${name}`;
+const imagePath = (name) => `/assets/images/${name}`;
 
 const projects = [
   {
