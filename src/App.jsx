@@ -365,7 +365,6 @@ function App() {
           <div className="section__label">Table Of Content</div>
           <div className="project-index__head reveal">
             <h2>Selected works organized from the portfolio deck.</h2>
-            <p>The project names are kept exactly from the PowerPoint portfolio.</p>
           </div>
           <div className="toc-list">
             {projects.map((project) => (
